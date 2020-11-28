@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ##### Header start ###### */
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.photo{
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* ##### Header end ###### */
+
+/* ####clearing div#### */
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* ####clearing div#### */
+
+/* ####Personal Info Start#### */
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: black 1px solid;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.education-left{
+    width: 45%;
+    float: left;
+}
+.education-right{
+ width: 45%;
+ float: right;
+}
+/* Footer section */
+.bottom-contener{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-contener a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-contener a:hover{
+    color: red;
+}
+.bottom-contener p{
+    color: white;
+}
